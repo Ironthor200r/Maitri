@@ -1,5 +1,7 @@
 import 'package:Maitri/automatic.dart';
+import 'package:Maitri/pages/breastfeed.dart';
 import 'package:Maitri/pages/com.dart';
+import 'package:Maitri/pages/guides.dart';
 import 'package:Maitri/pages/homelander.dart';
 import 'package:Maitri/pages/location.dart';
 import 'package:Maitri/pages/profile.dart';
@@ -105,7 +107,7 @@ class _homepageState extends State<homepage> {
       ProfileMax(),
       Profile(dueDate: dueDate), // Pass dueDate to ReceiverPage
       NearbyTemplesPage(),
-      ProfileDet(),
+      BreastfeedingTechniquesPage(),
     ];
   }
 }
